@@ -444,6 +444,54 @@ margin-left: 15px;
 
 
 }
+/* Full-width banner with background image */
+.banner {
+    position: relative;
+    
+    background: url('https://via.placeholder.com/1000x300') no-repeat center center/cover;
+    height: 300px;
+    margin-top: 2rem;
+    margin-right: 15px;
+    margin-left: 15px;
+   
+}
+
+/* Overlaying text and button */
+.banner .container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: left;
+    color: white;
+
+}
+.custom-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.btn-custom {
+    background-color: #00d0d0;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+/* Responsive adjustments */
+
 .product-container{
 background-color: rgba(128, 128, 128, 0.107);
 padding: 5rem;}
@@ -537,6 +585,13 @@ width: 31%!important;
 margin-bottom: 0;
 margin-right: 15px;
 }
+.custom-rounded-button {
+    background-color: #ff8800;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
 @media (max-width: 768px) {
 .download-app-section{
     flex-direction: column;
@@ -705,9 +760,20 @@ margin-top: 2rem;
 .product-banner img{
 width: 500px;
 }
-
+.banner h1 {
+    font-size: 2.5rem;
 }
 
+.banner p {
+    font-size: 1rem;
+}
+.download-app-section .form-control{
+   margin-bottom: 1rem;
+    }
+    .download-app-section label {
+        margin-bottom: 1rem;
+    }
+}
 
 
 
