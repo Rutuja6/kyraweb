@@ -448,7 +448,7 @@ margin-left: 15px;
 .banner {
     position: relative;
     
-    background: url('https://via.placeholder.com/1000x300') no-repeat center center/cover;
+    background: url('https://placehold.co/1000x300') no-repeat center center/cover;
     height: 300px;
     margin-top: 2rem;
     margin-right: 15px;
